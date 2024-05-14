@@ -20,6 +20,14 @@ class Realisation {
         this.age = age;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     public void bark() {
         System.out.println(name + " " + age);
     }
